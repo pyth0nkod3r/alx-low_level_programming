@@ -11,7 +11,7 @@ int n;
 n = 48;
 while (n < 58)
 {
-printf("%c\n", n);
+printf("%c", n);
 n++;
 }
 return (0);
