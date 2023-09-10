@@ -6,9 +6,10 @@
 int main(void)
 {
 char x;
-for (x = 97; x < 123; x++)
+for (x = 97; x <= 122; x++)
 {
 putchar(x);
 }
+putchar(32);
 return (0);
 }
