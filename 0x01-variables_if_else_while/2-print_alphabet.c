@@ -10,6 +10,6 @@ for (x = 97; x <= 122; x++)
 {
 putchar(x);
 }
-putchar(32);
+putchar(10);
 return (0);
 }
