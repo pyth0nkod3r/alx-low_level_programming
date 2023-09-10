@@ -8,9 +8,9 @@
 int main(void)
 {
 char x = 97;
-while (x < 122)
+while (x < 123)
 {
-if (x == 101 || x == 114)
+if (x == 101 || x == 113)
 {
 x++;
 continue;
