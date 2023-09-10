@@ -10,4 +10,5 @@ for (x = 97; x < 123; x++)
 {
 putchar(x);
 }
+return (0);
 }
