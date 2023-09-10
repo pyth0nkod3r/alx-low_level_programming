@@ -14,5 +14,6 @@ while (n < 58)
 printf("%c", n);
 n++;
 }
+printf("\n");
 return (0);
 }
