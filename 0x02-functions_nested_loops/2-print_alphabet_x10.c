@@ -12,7 +12,7 @@ for (c = 0; c < 10; c++)
 for (a=97; a < 123; a++)
 {
 _putchar(a);
- }
-_putchar(32);
+}
+_putchar(10);
 }
 }
