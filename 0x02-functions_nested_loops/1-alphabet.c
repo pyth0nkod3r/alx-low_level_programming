@@ -1,7 +1,7 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * print_alphabet - program start point
-* print_alphbet - function to call
 * Return: Void
 */
 
@@ -10,18 +10,9 @@ int print_alphbet(void);
 void print_alphabet(void)
 {
 int n;
-n = print_alphbet();
-_putchar(n);
-_putchar(32);
-}
-
-int print_alphbet(void)
+for (n=97; n < 123; n++)
 {
-int n;
-n = 97;
-do {
-_putchar(n);
-n++;
-} while (n < 122);
-return (n);
+putchar(n);
+}
+putchar(32);
 }
