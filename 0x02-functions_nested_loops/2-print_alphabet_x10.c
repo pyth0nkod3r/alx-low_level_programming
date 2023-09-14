@@ -4,12 +4,15 @@
 * Return: void
 */
 
-void print_alphabet_x10()
+void print_alphabet_x10(void)
 {
-int a;
+int a, c;
+for (c = 0; c < 10; c++)
+{
 for (a=97; a < 123; a++)
 {
-_putchar(a * 10);
-}
+_putchar(a);
+ }
 _putchar(32);
+}
 }
