@@ -7,16 +7,18 @@
 
 int print_sign(int n)
 {
-if (n > 96)
+if (n > '0')
 {
 _putchar('+');
 return (1);
 }
-else if (n == 96)
+else if (n == '0')
 {
 _putchar(96);
 return (0);
 }
+else {
 _putchar('-');
 return (-1);
+}
 }
