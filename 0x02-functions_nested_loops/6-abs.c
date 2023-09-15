@@ -5,9 +5,8 @@
 * Return: type int
 */
 
-int _abs(int)
+int _abs(int i)
 {
-int i;
 if (i > 1)
 {
 return (i);
