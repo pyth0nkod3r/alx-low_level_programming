@@ -12,14 +12,14 @@ int e = 123;
 int a = 64;
 if (c > a && c < b)
 {
-return(1);
+return (1);
 }
-else if ( c > d && c < e)
+else if (c > d && c < e)
 {
-return(1);
+return (1);
 }
 else
 {
-return(0);
+return (0);
 }
 }
