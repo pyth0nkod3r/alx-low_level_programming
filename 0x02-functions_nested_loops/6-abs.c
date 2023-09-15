@@ -16,5 +16,5 @@ else if (i == 0)
 return (-i);
 }
 i =  -i;
-return (0);
+return (i);
 }
