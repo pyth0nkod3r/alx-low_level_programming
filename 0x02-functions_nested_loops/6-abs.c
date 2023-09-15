@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * _abs - writes absolute int val
-* @int: int type input
+* @i: int type input
 * Return: type int
 */
 
