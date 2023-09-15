@@ -14,7 +14,7 @@ return (1);
 }
 else if (n == 0)
 {
-_putchar(96);
+_putchar(48);
 return (0);
 }
 _putchar('-');
