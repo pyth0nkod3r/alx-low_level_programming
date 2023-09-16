@@ -8,11 +8,17 @@ int fibonacci(void);
 
 int main(void)
 {
-    unsigned long int fib = fibonacci();
-    printf("%li", fib);
-    return (0);
+unsigned long int fib = fibonacci();
+
+printf("%li", fib);
+return (0);
 }
 
+
+/*
+ * fibonacci - prints the fib series
+ * Return: void
+ */
 
 int fibonacci(void)
 {
@@ -26,19 +32,18 @@ printf("%lu, ", second);
 printf("%lu, ", next);
 while (count < 50)
 {
-
-    first = second;
-    second = next;
-    next = first + second;
-    if (count < 50 )
-    {
-        printf("%lu, ", next);
-    }
-    else
-    {
-        printf("%lu, ", next);
-    }
-    count++;
+first = second;
+second = next;
+next = first + second;
+if (count < 50)
+{
+printf("%lu, ", next);
 }
-    return (0);
+else
+{
+printf("%lu\n", next);
+}
+count++;
+}
+return (0);
 }
