@@ -2,8 +2,7 @@
 
 /**
  * main - entry point
- * Return: zero
- *sum_of_multiples_3_and_5 - sumes the multiples of 3 and 5 below 1024
+ * sum_of_multiples_3_and_5 - sumes the multiples of 3 and 5 below 1024
  *@n: integer below 1024
  *Return: sum of multiples of three and five
  */
