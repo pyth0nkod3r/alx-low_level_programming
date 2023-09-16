@@ -29,9 +29,9 @@ n++;
 }
 else
 {
-printf("%i, ", n);
+printf("%i\n", n);
 break;
-}  
+}
 }
 }
 }
