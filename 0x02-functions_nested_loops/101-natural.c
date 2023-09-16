@@ -1,10 +1,25 @@
 #include <stdio.h>
-#include "main.h"
+
 /**
+ * main - entry point
+ * Return: zero
  *sum_of_multiples_3_and_5 - sumes the multiples of 3 and 5 below 1024
  *@n: integer below 1024
  *Return: sum of multiples of three and five
  */
+
+int sum_of_multiples_3_and_5(int n);
+
+int main(void)
+{
+	int num, r;
+
+	num = 1024;
+	r = sum_of_multiples_3_and_5(num);
+	printf("%d\n", r);
+	return (0);
+}
+
 int sum_of_multiples_3_and_5(int n)
 {
 	int i, sum;
