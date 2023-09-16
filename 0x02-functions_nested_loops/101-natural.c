@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- * sum_of_multiples_3_and_5 - sumes the multiples of 3 and 5 below 1024
- *@n: integer below 1024
- *Return: sum of multiples of three and five
+ * main - entry point for multiple func
+ * @n: parameter
+ * Return: zero
  */
 
 int sum_of_multiples_3_and_5(int n);
@@ -15,10 +14,15 @@ int main(void)
 
 	num = 1024;
 	r = sum_of_multiples_3_and_5(num);
-	printf("%d\n", r);
+	printf("%i\n", r);
 	return (0);
 }
 
+/**
+ *sum_of_multiples_3_and_5 - sums the multiples of 3 and 5 below 1024
+ *@n: integer below 1024
+ *Return: sum of multiples of three and five
+ */
 int sum_of_multiples_3_and_5(int n)
 {
 	int i, sum;
