@@ -1,32 +1,41 @@
 #include <stdio.h>
 
 /**
- * main - Entry point, prints the first 50 fibonacci numbers
- *
- * Return: Always 0
+ * fibonacci - fibonacci
+ * @n: input
+ */
+
+void fibonacci(int n)
+{
+	unsigned long int i, first = 1, second = 2, next;
+
+	printf("%lu, %lu, ", first, second);
+
+	for (i = 3; i <= n; i++)
+	{
+		next = first + second;
+
+		printf("%lu", next);
+
+		if (i != n)
+		{
+			printf(", ");
+		}
+
+		first = second;
+		second = next;
+	} printf("\n");
+}
+
+
+/**
+ * main - function
+ * Return: 0
  */
 int main(void)
 {
-	int counter = 0;
-	unsigned long first = 0;
-	unsigned long second = 1;
-	unsigned long fib;
+	unsigned long int n = 98;
 
-	while (counter <= 97)
-	{
-		fib = first + second;
-		if (counter < 97)
-		{
-			printf("%lu, ", fib);
-		}
-		else
-		{
-			printf("%lu", fib);
-		}
-		first = second;
-		second = fib;
-		counter++;
-	}
-	printf("\n");
+	fibonacci(n);
 	return (0);
 }
