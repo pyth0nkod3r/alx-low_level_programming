@@ -20,13 +20,16 @@ int count = 0;
 unsigned long first = 1;
 unsigned long second = 2;
 unsigned long next;
+next = first + second;
+printf("%lu, ", first);
+printf("%lu, ", second);
+printf("%lu, ", next);
 while (count < 50)
 {
-    next = first + second;
-    printf("%lu, ", next);
+
     first = second;
     second = next;
-    count++;
+    next = first + second;
     if (count < 50 )
     {
         printf("%lu, ", next);
@@ -35,6 +38,7 @@ while (count < 50)
     {
         printf("%lu, ", next);
     }
+    count++;
 }
     return (0);
 }
