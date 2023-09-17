@@ -13,9 +13,8 @@ i = 0;
 while (i < 10)
 {
 	putchar(i);
-	i++;
+	break;
 	}
-
 	printf("Infinite loop avoided! \\o/\n");
 
 	return (0);
