@@ -10,7 +10,7 @@ int main(void)
 {
     char c;
 
-    c = '0';
+    c = 'A';
     printf("%c: %d\n", c, _isdigit(c));
     c = '1';
     printf("%c: %d\n", c, _isdigit(c));
