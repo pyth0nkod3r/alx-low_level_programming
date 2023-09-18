@@ -7,11 +7,7 @@
 
 int _isupper(int c)
 {
-	int d;
-
-	for (d = 65; d < 91; d++)
-	{
-		if (c == d)
+		if ((c >= 'A' ) && (c <= 'Z'))
 		{
 			return (1);
 		}
@@ -20,6 +16,4 @@ int _isupper(int c)
 			return (0);
 		}
 	}
-	return (0);
-}
 
