@@ -8,16 +8,16 @@ void print_square(int size)
 {
 	int count, mul;
 
-	count = 0;
-	if (count <= 0)
+	count = 1;
+	if (size <= 0)
 	{
 		_putchar('\n');
 	}
-	else if (size > count)
+	else if (count < size && size != 0)
 	{
 		for (count = 0; count < size; count++)
 		{
-			for (mul = 0; mul <= size; mul++)
+			for (mul = 0; mul < size; mul++)
 			{
 				_putchar('#');
 			}
