@@ -15,7 +15,7 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		while (count <= n)
+		while (count < n)
 		{
 			for (i = 0; i < count; i++)
 			{
@@ -26,3 +26,4 @@ void print_diagonal(int n)
 			count++;
 		}
 	}
+}
