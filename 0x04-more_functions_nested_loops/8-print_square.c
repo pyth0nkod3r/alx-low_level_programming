@@ -9,7 +9,7 @@ void print_square(int size)
 	int count, mul;
 
 	count = 0;
-	if (count < 0)
+	if (count <= 0)
 	{
 		_putchar('\n');
 	}
