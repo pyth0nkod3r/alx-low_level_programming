@@ -27,5 +27,5 @@ int _atoi(char *s)
 		}
 
 	} while (*s++);
-return (i);
+return (i * j);
 }
