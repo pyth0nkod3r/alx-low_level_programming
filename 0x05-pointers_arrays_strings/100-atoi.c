@@ -4,16 +4,28 @@
 /**
  * _atoi - converts string to integer
  * @s: parameter
- * 
+ *
  * Return: converted integer
 */
 
 int _atoi(char *s)
 {
-	int i = 0;
+	int i = 0, j = 1;
 
-	for (; i < _strlen(s); i++)
-	{
-		
-	}
+	do {
+		if (*s == '-')
+		{
+			j *= -1;
+		}
+		else if (*s >= '0' && *s <= '9')
+		{
+			i = i * 10 + (*s - '0');
+		}
+		else if (i > 0)
+		{
+			break;
+		}
+
+	} while (*s++);
+
 }
