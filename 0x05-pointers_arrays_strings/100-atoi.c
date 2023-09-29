@@ -25,7 +25,6 @@ int _atoi(char *s)
 		{
 			break;
 		}
-
 	} while (*s++);
 return (i * j);
 }
