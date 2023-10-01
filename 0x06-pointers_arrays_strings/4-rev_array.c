@@ -5,7 +5,7 @@
  * reverse_array - reverses the content of an array
  * @a: first parameter
  * @n: second parameter
- * 
+ *
 */
 void reverse_array(int *a, int n)
 {
