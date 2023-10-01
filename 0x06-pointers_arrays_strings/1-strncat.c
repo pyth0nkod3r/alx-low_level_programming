@@ -2,11 +2,11 @@
 #include "2-strlen.c"
 
 /**
- * strncat - concatenates two strings
+ * _strncat - concatenates two strings
  * @dest: destination parameter
  * @src: source parameter
  * @n: number of bytes
- * 
+ *
  * Return: pointer to @dest
 */
 
@@ -22,7 +22,7 @@ char *_strncat(char *dest, char *src, int n)
 		{
 			break;
 		}
-		
+
 	}
 	return (dest);
 }
