@@ -12,10 +12,10 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int dest_len, count;
+	int dest_len, count = 0;
 
 	dest_len = _strlen(dest);
-	for (count = 0; count < n; count++)
+	for (; count < n; count++)
 	{
 		dest[dest_len + count] = src[count];
 		if (dest[dest_len + count] == '\n')
