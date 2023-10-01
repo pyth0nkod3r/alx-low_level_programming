@@ -5,7 +5,7 @@
  * _strcmp - compares two strings
  * @s1: first paramameter
  * @s2: second parameter
- * 
+ *
  * Return: 0, +ve value or -ve value
 */
 
