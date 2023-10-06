@@ -16,14 +16,15 @@ while (*s)
 {
 	for (i = 0; accept[i]; i++)
 	{
-		if (s[i] == accept[i])
+		if (*s == accept[i])
 		{
 			count++;
+			break;
 		}
-		else if (accept[i] == '\0')
+		else if (accept[i + 1] == '\0')
 		{
 			return (count);
-		}	
+		}
 	}
 	s++;
 }
