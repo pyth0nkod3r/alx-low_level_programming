@@ -20,6 +20,10 @@ while (*s)
 		{
 			count++;
 		}
+		else if (accept[i] == '\0')
+		{
+			return (count);
+		}	
 	}
 	s++;
 }
