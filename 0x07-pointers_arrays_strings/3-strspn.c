@@ -16,7 +16,7 @@ while (*s)
 {
 	for (i = 0; accept[i]; i++)
 	{
-		if (accept[i] == s[i])
+		if (s[i] == accept[i])
 		{
 			count++;
 		}
