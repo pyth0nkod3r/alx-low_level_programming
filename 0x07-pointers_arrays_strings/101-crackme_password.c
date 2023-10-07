@@ -16,14 +16,18 @@ int main()
 
 void writePasswordToFile()
 {
-	FILE *file = fopen("password.txt", "w");
+	int i;
+
+	FILE *file = fopen("crackme2", "wb");
 	if (file == NULL)
 	{
 		printf("Error. Exting..\n");
 		exit(1);
 	}
-	fwrite(password, sizeof(char), PASSWORD_LENGTH, file);
+	for (i = 0; i < PASSWORD_LENGTH; i++)
+	{
+		fputc(password[i], file);
+	}
+	
 	fclose(file);
 }
-
-
