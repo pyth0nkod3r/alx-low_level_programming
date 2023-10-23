@@ -1,20 +1,12 @@
-#include "lists.h"
+#include <stdio.h>
 
 /**
- * list_len - returns then number of elements in a list.
- * @h: singly linked list.
- * Return: number of elements in the list.
+ * first - function executed before main
+ * Return: no return.
  */
 
-size_t list_len(const list_t *h)
+void __attribute__ ((constructor)) first()
 {
-	size_t number_of_nodes;
-
-	number_of_nodes = 0;
-	while (h != NULL)
-	{
-		h = h->next;
-		number_of_nodes++;
-	}
-	return (number_of_nodes);
+	printf("You're beat! and yet, you must allow");
+	printf(",\nI bore my house upon my back!\n");
 }
